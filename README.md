@@ -2,13 +2,14 @@
 
   
 
-## 🖥️ **Website Redevelopment**
+## 🖥️ **Website Development**
 
   
 
 This repository contains the source code for the development of [hunterstevenshaw.info](https://hunterstevenshaw.info/); my portfolio, built using _**npm create vite@latest**_. The new tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
 
   
+### 🚧 [Development Server](https://portfolio-2025-hunterstevenshaw.netlify.app/)
 
 ## 🛠️ **Tech Stack Overview** 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
