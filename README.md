@@ -71,6 +71,37 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+# 📊 Milestones
+
+### 📌 Milestone #1: **Project Planning & Design** 
+- [x] Decide on the **topic and theme** for the project
+- [ ] Create a **Wireframe Prototype** using Figma
+- [x] Create **Deadlines**
+    - Milestone 1: 02/10/2025
+    - Milestone 2: 02/17/2025
+    - Milestone 3: 02/24/2025
+    - Milestone 4: 03/02/2025
+
+### 🚀 Milestone #2: **Development & Setup** 
+- [x] Setup and initialize the project
+- [x] Set up **GitHub Repository**
+- [x] Write an initial **README.md** file
+- [ ] Research and select a **free API** that returns JSON data
+- [ ] SCSS/SASS setup
+- [ ] Backend
+    - NodeJS/Express
+    - MongoDB/localStorage
+
+### 🛠️ Milestone #3: **Functional Prototype** 
+- [ ] Components/Structure
+- [ ] Use of (2) libraries
+
+### 🎨 Milestone #4: **Final Touches & Deployment** 
+- [ ] Working application
+- [ ] Ready for **Production**
+
+
 ### 🛠️ 🐛 **Issues/Bugs**
 
 ### 📈 📸 **Progress/Screenshots**
+
