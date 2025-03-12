@@ -58,6 +58,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### 🛠️ 🐛 **Issues/Bugs**
-
 ### 📈 📸 **Progress/Screenshots**
+
+# Added Firebase Storage and loaded in main videos for both desktop/mobile
+
+<img width="297" alt="Image" src="https://github.com/user-attachments/assets/5bb63819-4c62-4797-a98e-ba8a51d99c2e" />
+<img width="700" alt="Image" src="https://github.com/user-attachments/assets/594b453c-07d0-456c-a75f-aa9ba3c4d8d7" />
