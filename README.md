@@ -6,6 +6,8 @@ This repository contains the source code for the development of [hunterstevensha
 
 ### 🚧 [Development Server](https://portfolio-2025-hunterstevenshaw.netlify.app/)
 
+[![Deployment Status](https://api.netlify.com/api/v1/badges/0c441339-e78e-4bb9-a361-96447a47f986/deploy-status)](https://app.netlify.com/sites/portfolio-2025-hunterstevenshaw/deploys)
+
 ## 🛠️ **Tech Stack Overview**
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
