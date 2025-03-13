@@ -10,7 +10,7 @@ This repository contains the source code for the development of [hunterstevensha
 
 ## 🛠️ **Tech Stack Overview**
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,scss,firebase)](https://skillicons.dev)
 
 ### 📘 **Frontend**
 
@@ -20,9 +20,9 @@ This repository contains the source code for the development of [hunterstevensha
 
 ### 📖 **Backend & Asset Management**
 
-- **NodeJS/Express & MongoDB/localStorage**: Storing images, email addresses, and other critical data as structured records.
+- **Firebase Storage/localStorage**: Storing images, email addresses, and other critical data. This is great for faster load times and a better user experience.
 
-## ❓ **Why This Tech Stack? (MERN)**
+## ❓ **Why This Tech Stack?**
 
 ### **1. ReactJS & SASS/SCSS**
 
@@ -30,11 +30,11 @@ This repository contains the source code for the development of [hunterstevensha
 
 - SASS/SCSS integrates seamlessly into React components, allowing consistent design & UI/UX.
 
-- This is better for larger projects that have a lot of styles and makes sure they will be consistent. This also allows for better control instead of using styled-components where it might be overwritten or would not load correctly when components change.
+- This is better for larger projects that have a lot of styles and makes sure they will be consistent. This also allows for better control instead of using styled-components where it might be overwritten or would not load correctly when components change. This is also great for fast and easier styling. ReactJS is needed for my portfolio due to a lot of changing data/components.
 
-### **2. NodeJS/Express & MongoDB/localStorage**
+### **2. Firebase Storage/localStorage**
 
-- Allows for storing data and info in a JSON type format.
+- Allows for storing data and increases load/speed times.
 
 - Ensures fast and reliable data retrieval and caches data once visited for the first time.
 
