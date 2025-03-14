@@ -26,7 +26,6 @@ body {
   justify-content: center;
   width: 100vw; 
   height: auto;
-  // max-width: 1920px;
 }
 
 #desktop-video {
@@ -43,16 +42,16 @@ body {
 /* Default styling for larger devices */
 #mobile-video {
   position: absolute;
-  width: 420px;  /* Default width */
-  height: 900px; /* Default height */
+  width: 420px;  
+  height: 900px; 
   object-fit: cover;
 }
 
 /* Default for Larger Phones */
 #mobile-video {
   position: absolute;
-  width: 440px;  /* Slightly increased */
-  height: 940px; /* Slightly increased */
+  width: 440px; 
+  height: 940px;
   object-fit: cover;
 }
 
