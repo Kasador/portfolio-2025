@@ -1,26 +1,49 @@
-// import useFirebaseStorage from "@/hooks/useFirebaseStorage";
+import { useEffect, useState } from "react";
 import DesktopView from "../../views/desktop/DesktopView";
 
 function Desktop() {
-  // const { url, loading, error } = useFirebaseStorage("desktop/videos/Desktop.webm");
+  const [videoSize, setVideoSize] = useState({ width: 0, height: 0 });
 
-  // if (loading) return <p>Loading video...</p>;
-  // if (error) return <p>Error loading boot animation: {error}</p>;
+  useEffect(() => {
+    const video = document.getElementById("desktop-video");
+
+    const updateSize = () => {
+      if (video) {
+        setVideoSize({
+          width: video.clientWidth,
+          height: video.clientHeight,
+        });
+      }
+    };
+
+    const handleVideoLoaded = () => {
+      updateSize();
+    };
+
+    if (video) {
+      video.addEventListener("loadedmetadata", handleVideoLoaded);
+    }
+
+    window.addEventListener("resize", updateSize);
+    updateSize(); // Ensure initial load works correctly
+
+    return () => {
+      window.removeEventListener("resize", updateSize);
+      if (video) {
+        video.removeEventListener("loadedmetadata", handleVideoLoaded);
+      }
+    };
+  }, []);
 
   return (
     <div className="video-wrapper">
-       <video   
-        autoPlay 
-        muted 
-        playsInline 
-        preload="auto"
-        id="desktop-video"
-        onCanPlay={(e) => e.target.play()}
-        onError={(e) => console.error("Video Error:", e)}>
+      <div className="video-container">
+        <video autoPlay muted playsInline loop id="desktop-video">
           <source src="/videos/Desktop.webm" type="video/webm" />
-          Your browser does not support the video tag.
+          <source src="/videos/Desktop.mp4" type="video/mp4" />
         </video>
-        <DesktopView />
+        <DesktopView videoSize={videoSize} />
+      </div>
     </div>
   );
 }

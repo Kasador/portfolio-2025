@@ -1,24 +1,15 @@
-// import useFirebaseStorage from "@/hooks/useFirebaseStorage";
+import MobileView from "../../views/mobile/MobileView";
 
 function Mobile() {
-  // const { url, loading, error } = useFirebaseStorage("mobile/videos/Mobile.mp4");
-
-  // if (loading) return <p>Loading video...</p>;
-  // if (error) return <p>Error loading boot animation: {error}</p>;
-
   return (
     <div className="video-wrapper">
-      <video   
-        autoPlay 
-        muted 
-        playsInline 
-        preload="auto"
-        id="mobile-video"
-        onCanPlay={(e) => e.target.play()}
-        onError={(e) => console.error("Video Error:", e)}>
+      <div className="video-container">
+        <video autoPlay muted playsInline loop id="mobile-video">
+          <source src="/videos/Mobile.webm" type="video/webm" />
           <source src="/videos/Mobile.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
         </video>
+        <MobileView />
+      </div>
     </div>
   );
 }

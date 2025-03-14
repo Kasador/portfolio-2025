@@ -1,10 +1,9 @@
 #desktop-view {
-    position: fixed;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 850.5px;
-    height: 502.8px;
+    position: absolute;
+    z-index: 2;
     background-color: green;
-    transform: translate(-50%, -43%);
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
