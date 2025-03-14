@@ -1,4 +1,5 @@
 // import useFirebaseStorage from "@/hooks/useFirebaseStorage";
+import DesktopView from "../../views/desktop/DesktopView";
 
 function Desktop() {
   // const { url, loading, error } = useFirebaseStorage("desktop/videos/Desktop.webm");
@@ -19,6 +20,7 @@ function Desktop() {
           <source src="/videos/Desktop.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
+        <DesktopView />
     </div>
   );
 }
