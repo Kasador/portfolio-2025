@@ -1,0 +1,57 @@
+#mobile-view {
+    position: absolute;
+    z-index: 2;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Large Phones (iPhone 14 Pro, Pixel 7 Pro) */
+  @media (max-width: 450px) {
+    #mobile-view {
+      width: 300px;
+      height: 625px;
+      right: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -51.1%);
+    }
+  }
+  
+  /* Medium Phones (iPhone 13, Galaxy S21) */
+  @media (max-width: 400px) {
+    #mobile-view {
+      width: 280px;
+      height: 600px;
+      right: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -51%);
+    }
+  }
+  
+  /* Small Phones (iPhone SE, Pixel 6a) */
+  @media (max-width: 375px) {
+    #mobile-view {
+      width: 260px;
+      height: 540px;
+      right: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -51.3%);
+    }
+  }
+  
+  /* Extra Small Phones (Older Androids, Compact Devices) */
+  @media (max-width: 340px) {
+    #mobile-view {
+      width: 240px;
+      height: 530px;
+      right: 50%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50.8%);
+    }
+  }
+  

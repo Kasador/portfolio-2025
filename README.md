@@ -69,6 +69,17 @@ Currently, two official plugins are available:
 
 <img width="500" alt="Image" src="https://github.com/user-attachments/assets/2c1729b0-cf61-41f6-ba37-898da525d055" />
 
+# 🔄 Update version **_01_**
+### ╰┈➤ Responsive Screens for iPhone/Desktop
+
+- Updated both mobile/desktop to be responsive on all devices.
+- Responsive with the **_fake_** screens for the video backgrounds.
+
+### Screenshots Below ⤸
+
+<img width="250" alt="Image" src="https://github.com/user-attachments/assets/eaa93634-6b1e-4772-9082-157896312eeb" />
+<img width="500" alt="Image" src="https://github.com/user-attachments/assets/5e68bd29-2c94-4c45-a611-21ee1f9d5de6" />
+
 # 📈 📸 **Progress/Screenshots**
 
 # Added Firebase Storage and loaded in main videos for both desktop/mobile

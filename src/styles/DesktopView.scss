@@ -1,12 +1,8 @@
 #desktop-view {
     position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 60vw; 
-    height: 35vw;
-    max-width: 850.5px;
-    max-height: 502.8px;
+    z-index: 2;
     background-color: green;
-    transform: translate(-50%, -50%);
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
