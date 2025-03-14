@@ -13,10 +13,9 @@ function Desktop() {
         autoPlay 
         muted 
         playsInline 
-        preload="auto"
-        id="desktop-video"
-        onCanPlay={(e) => e.target.play()}
-        onError={(e) => console.error("Video Error:", e)}>
+        // onEnded={(e) => e.target.play()
+        loop
+        id="desktop-video">
           <source src="/videos/Desktop.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>

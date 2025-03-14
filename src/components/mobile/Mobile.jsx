@@ -13,9 +13,10 @@ function Mobile() {
         muted 
         playsInline 
         preload="auto"
+        loop
         id="mobile-video"
-        onCanPlay={(e) => e.target.play()}
-        onError={(e) => console.error("Video Error:", e)}>
+        // onEnded={(e) => e.target.play()}
+        >
           <source src="/videos/Mobile.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
