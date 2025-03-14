@@ -58,7 +58,18 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### 📈 📸 **Progress/Screenshots**
+# ⚠️ **Issues**
+
+# 🚨 Screen ratio for fake screens off on different screen sizes.
+
+### ╰┈➤ Responsive Screens for iPhone/Desktop
+
+- Screen within graphics needs to be the same on resizing.
+- Responsive for both mobile version and desktop version.
+
+<img width="500" alt="Image" src="https://github.com/user-attachments/assets/2c1729b0-cf61-41f6-ba37-898da525d055" />
+
+# 📈 📸 **Progress/Screenshots**
 
 # Added Firebase Storage and loaded in main videos for both desktop/mobile
 
